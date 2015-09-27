@@ -1,4 +1,4 @@
 # Stormy
-Stormy is an Android app that show the current weather status at user's position. This is project I've learn from Teamtreehouse.com
+Stormy is an Android app that show the current weather status at user's position. This is project I learnt from Teamtreehouse.com
 <br/>
-<img src="http://treehouse-code-samples.s3.amazonaws.com/Android/WeatherApp/stormy_mockup.png" />
+<img src="http://i.imgur.com/bH0Mh73.png" />
