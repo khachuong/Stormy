@@ -81,8 +81,12 @@ public class CurrentWeather {
         mTime = time;
     }
 
-    public double getTemperature() {
-        return mTemperature;
+    public int getTemperature() {
+        //Convert Fahrenheit degree to Celsius degree
+        int tempInFahrenheit=  (int)Math.round(mTemperature) ;
+        int tempInCelsius = ((tempInFahrenheit - 32)*5)/9;
+        return tempInCelsius;
+
     }
 
     public void setTemperature(double temperature) {
@@ -98,7 +102,8 @@ public class CurrentWeather {
     }
 
     public double getPrecipChance() {
-        return mPrecipChance;
+        double precipPercentage = mPrecipChance * 100;
+        return (int)Math.round(precipPercentage);
     }
 
     public void setPrecipChance(double precipChance) {
