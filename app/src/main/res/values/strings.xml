@@ -7,4 +7,6 @@
     <string name="error_message">There was an error, please try again!</string>
     <string name="error_ok_button">OK</string>
     <string name="network_is_unavailable">Network is unvailable!</string>
+    <string name="title_activity_daily_forecast">DailyForecastActivity</string>
+    <string name="no_daily_forecast_data">There is no data to display</string>
 </resources>

@@ -1,10 +1,12 @@
-package vn.tadah.stormy;
+package vn.tadah.stormy.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
+
+import vn.tadah.stormy.R;
 
 /**
  * Created by Khachuong on 9/27/15.

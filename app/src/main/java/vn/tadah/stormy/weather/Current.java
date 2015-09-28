@@ -1,13 +1,15 @@
-package vn.tadah.stormy;
+package vn.tadah.stormy.weather;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
+import vn.tadah.stormy.R;
+
 /**
  * Created by Khachuong on 9/27/15.
  */
-public class CurrentWeather {
+public class Current {
     private String mIcon;
     private long mTime;
     private double mTemperature;
